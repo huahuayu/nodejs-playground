@@ -30,4 +30,4 @@ const person = {
 
 console.log(person.getName1()); // output: shiming
 console.log(person.getName2()); // output: shiming
-console.log(person.getName3()); // output: undefined
+console.log(person.getName3()); // output: shiming
