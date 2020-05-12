@@ -20,10 +20,14 @@ const person = {
   getName1: function () {
     return this.name;
   },
-  getName2: () => {
+  getName2() {
+    return this.name;
+  },
+  getName3: () => {
     return this.name;
   },
 };
 
 console.log(person.getName1()); // output: shiming
-console.log(person.getName2()); // output: undefined
+console.log(person.getName2()); // output: shiming
+console.log(person.getName3()); // output: undefined
